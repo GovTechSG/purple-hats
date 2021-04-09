@@ -98,6 +98,7 @@ if [ -d "results/$currentDate/$randomToken" ]; then
         reportPath="$current_dir/results/$currentDate/$randomToken/reports/report.html"
         echo "You can find the report in $reportPath"
     fi
+
 else
     echo "WARNING: An unexpected error has occurred. Please try again later."
 fi
